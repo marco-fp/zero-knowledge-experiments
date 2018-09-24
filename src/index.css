@@ -7,3 +7,30 @@ body {
 .password-input {
   margin: 10px !important;
 }
+
+.generate-kdk-auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password-input-wrapper {
+  padding: 20px;
+  align-content: center;
+}
+
+.display-kdk-auth {
+  padding: 20px;
+  display: flex;
+}
+
+.key-display {
+  display: flex;
+  max-width: 250px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.key-text {
+  word-wrap: break-word;
+}
